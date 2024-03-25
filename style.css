@@ -1,13 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 * {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #0d0d0d;
   font-family: "EB Garamond", serif;
   color: #f2d8a7;
 }
-#container {
+main {
+  max-width: 800px; /* Adjust this value as needed */
+  width: 100%;
+  padding: 0 20px;
+}
+.stage_container {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 a {
   color: #f2cb05;

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+* {
+  text-decoration: none;
+}
+body {
+  background-color: #0d0d0d;
+  font-family: "EB Garamond", serif;
+  color: #f2d8a7;
+}
+#container {
+}
+a {
+  color: #f2cb05;
+}
+a:hover {
+  color: #d9042b;
+  text-decoration: underline;
+}
